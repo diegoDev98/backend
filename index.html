@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Guardar Producto</h1>
+        
+        <form id="form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" placeholder="John Doe"/><br>
+            <label for="name">Precio:</label>
+            <input type="text" id="price" placeholder="131.13"/><br>
+            <label for="name">Thumbanil:</label>
+            <input type="text" id="thumbnail" placeholder="https://cdn3.iconfinder.com/data/icons"/><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Foto</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
