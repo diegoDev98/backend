@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgba(128, 128, 128, 0.275);
+    width: 70vw;
+    margin: auto;
+    padding: 40px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: blue;
+}
+#email {
+    margin-bottom: 30px;
+}
+
+.message-email {
+    color: blue;
+    font-weight: bold;
+}
+.message-time {
+    color: red;
+}
+.message-message {
+    color: green;
+}
