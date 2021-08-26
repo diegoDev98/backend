@@ -1,0 +1,22 @@
+html
+  if response.length
+    head
+      title="primer pug"
+      link(rel="stylesheet" href="../../style.css")
+    body
+      table.table.table-striped
+        tr 
+          td 
+            h1 INGRESE PRODUCTO
+        tr
+          th Nombre
+          th Precio
+          th Foto
+        each val in response
+          tr
+            td  #{val.name}
+            td  #{val.price} 
+            td 
+              img(src= val.thumbnail, style='width:80px;height:80px;')
+  else 
+    p "No hay productos"

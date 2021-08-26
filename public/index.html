@@ -1,0 +1,40 @@
+<h1>Listar Productos</h1>
+<form action="/api/productos/listar" method="get">
+  <ul>
+    <li class="button">
+      <button type="submit">Listar</button>
+    </li>
+  </ul>
+</form>
+
+
+<h1>Guardar Producto</h1>
+<form action="/api/productos/agregar" method="post">
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name">
+    </li>
+    <li>
+      <label for="name">Precio:</label>
+      <input type="text" id="price" name="price">
+    </li>
+    <li>
+      <label for="name">Thumbnail:</label>
+      <input type="text" id="thumbnail" name="thumbnail">
+    </li>
+    <li>
+      <label for="stock">Stock:</label>
+      <input type="text" id="stock" name="stock">
+    </li>
+    <li>
+      <label for="description">Description:</label>
+      <input type="text" id="description" name="description">
+    </li>
+    <li class="button">
+      <button type="submit">Guardar</button>
+    </li>
+  </ul>
+</form>
+
+
